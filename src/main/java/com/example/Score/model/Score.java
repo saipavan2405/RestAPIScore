@@ -13,4 +13,8 @@ public class Score {
 
     @Column(name="value")
     private String value;
+
+    public Score(int i, String s) {
+    }
+
 }
